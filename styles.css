@@ -1,0 +1,31 @@
+/* CSS Selector */
+body {
+  /*CSS Declaration */
+  /* CSS Rule property:value; */
+  background-color: rgb(247, 31, 31);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  /* Longhand*/
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+
+  /* Shorthand */
+  border: black 4px solid;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.navigationList {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
